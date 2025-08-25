@@ -1,0 +1,6 @@
+@media (max-width: 640px) {
+    iframe.video-bg {
+      transform: translate(-50%, -50%) scaleY(1.2); /* Stretch vertically only on mobile */
+    }
+  }
+  
