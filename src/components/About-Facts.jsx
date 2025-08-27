@@ -50,7 +50,7 @@ const PersonalIntroPage = () => {
           animate="visible"
         >
           <motion.img
-            src="./public/Harrisburg+PA+Squarespace+Web+Developer.webp"
+            src="./Harrisburg+PA+Squarespace+Web+Developer.webp"
             alt="Modern cityscape with architecture"
             className="w-full h-full object-cover"
             style={{ y }}

@@ -5,7 +5,7 @@ const ServicesHero = () => {
     <section className="relative w-full h-screen flex items-center justify-center overflow-hidden -mt-24 md:-mt-28 pt-24 md:pt-28">
       {/* Background image - now extends to top */}
       <img
-        src="/public/man-with-laptop-computer-sitting-at-outdoor-cafe-2018185.jpg"
+        src="/man-with-laptop-computer-sitting-at-outdoor-cafe-2018185.jpg"
         alt="Contact Hero Background"
         className="absolute inset-0 w-full h-full object-cover object-center z-0"
         draggable="false"
@@ -21,7 +21,10 @@ const ServicesHero = () => {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
       >
-        <h1 className="text-white text-[2rem] md:text-[8rem] font-light leading-none text-center drop-shadow-lg">
+        <h1
+          style={{ fontFamily: "Playfair Display, serif" }}
+          className="text-white text-[2rem] md:text-[8rem] font-light leading-none text-center drop-shadow-lg"
+        >
           SquareSpace Developer
           <br /> & Driven Designer
         </h1>
